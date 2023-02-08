@@ -1,0 +1,30 @@
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+}
+main > * {
+    flex:0 0 1;
+}
+
+.sevenday {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.sevenday > * {
+    flex: 0 0 1;
+}
+
+.day {
+	display: flex;
+	flex-direction: column;
+    margin: 0.5em;
+}
+
+.day > p {
+    flex: 0 0 1;
+}
